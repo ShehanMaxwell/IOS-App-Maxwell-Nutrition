@@ -123,13 +123,13 @@ class RecipeDetailViewController : UIViewController {
         headerLabel.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        headerLabel.text = "Details" //details about the food
+        headerLabel.text = "Details" //food details
         headerLabel.font = UIFont.boldSystemFont(ofSize: 25.0)
         headerLabel.textColor = UIColor.red
         headerLabel.textAlignment = .center
         headerLabel.sizeToFit()
         
-        nameLabel.text = "Name: " + food.name
+        nameLabel.text = "Name: " + food.name //food name
         nameLabel.textColor = UIColor.white
         nameLabel.sizeToFit()
         
