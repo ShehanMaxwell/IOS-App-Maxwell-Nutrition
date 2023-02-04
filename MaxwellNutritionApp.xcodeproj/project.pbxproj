@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FBDF82ED6E44CCA0F488C6 /* Pods_MaxwellNutritionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673431FB84B6B65A59771B0A /* Pods_MaxwellNutritionApp.framework */; };
+		E50F4AC72968A54F00CE75A1 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F4AC62968A54F00CE75A1 /* Food.swift */; };
+		E5D1057A2960277800084116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D105792960277800084116 /* AppDelegate.swift */; };
+		E5D1057C2960277800084116 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1057B2960277800084116 /* SceneDelegate.swift */; };
+		E5D1057E2960277800084116 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1057D2960277800084116 /* SignupViewController.swift */; };
+		E5D105832960277A00084116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D105822960277A00084116 /* Assets.xcassets */; };
+		E5D105862960277A00084116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D105842960277A00084116 /* LaunchScreen.storyboard */; };
+		E5D1058E2960585700084116 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1058D2960585700084116 /* HomeViewController.swift */; };
+		E5D1059029605EF700084116 /* RecipeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1058F29605EF700084116 /* RecipeTableCell.swift */; };
+		E5D105922960623E00084116 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D105912960623E00084116 /* RecipeDetailViewController.swift */; };
+		E5D1059629619CF300084116 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5D1059529619CF300084116 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17DA1E29FC7721A26A6A45DF /* Pods-MaxwellNutritionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxwellNutritionApp.release.xcconfig"; path = "Target Support Files/Pods-MaxwellNutritionApp/Pods-MaxwellNutritionApp.release.xcconfig"; sourceTree = "<group>"; };
+		36773D9AB385F2AD9A5CBF3D /* Pods-MaxwellNutritionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxwellNutritionApp.debug.xcconfig"; path = "Target Support Files/Pods-MaxwellNutritionApp/Pods-MaxwellNutritionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		673431FB84B6B65A59771B0A /* Pods_MaxwellNutritionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxwellNutritionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C9E80979F68511D7B01B4D /* Pods-MaxwellFoodRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxwellFoodRecipes.release.xcconfig"; path = "Target Support Files/Pods-MaxwellFoodRecipes/Pods-MaxwellFoodRecipes.release.xcconfig"; sourceTree = "<group>"; };
+		E3E93F746DF4B3D17499B2C9 /* Pods-MaxwellFoodRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxwellFoodRecipes.debug.xcconfig"; path = "Target Support Files/Pods-MaxwellFoodRecipes/Pods-MaxwellFoodRecipes.debug.xcconfig"; sourceTree = "<group>"; };
+		E50F4AC62968A54F00CE75A1 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		E5D105762960277800084116 /* MaxwellNutritionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxwellNutritionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D105792960277800084116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5D1057B2960277800084116 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E5D1057D2960277800084116 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		E5D105822960277A00084116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5D105852960277A00084116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5D105872960277A00084116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D1058D2960585700084116 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5D1058F29605EF700084116 /* RecipeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableCell.swift; sourceTree = "<group>"; };
+		E5D105912960623E00084116 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		E5D1059529619CF300084116 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5D105732960277800084116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FBDF82ED6E44CCA0F488C6 /* Pods_MaxwellNutritionApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8398648B3B64482017D4BC14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3E93F746DF4B3D17499B2C9 /* Pods-MaxwellFoodRecipes.debug.xcconfig */,
+				C7C9E80979F68511D7B01B4D /* Pods-MaxwellFoodRecipes.release.xcconfig */,
+				36773D9AB385F2AD9A5CBF3D /* Pods-MaxwellNutritionApp.debug.xcconfig */,
+				17DA1E29FC7721A26A6A45DF /* Pods-MaxwellNutritionApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC994F61923E1C6CAF209FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				673431FB84B6B65A59771B0A /* Pods_MaxwellNutritionApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5D1056D2960277800084116 = {
+			isa = PBXGroup;
+			children = (
+				E5D105782960277800084116 /* MaxwellNutritionApp */,
+				E5D105772960277800084116 /* Products */,
+				8398648B3B64482017D4BC14 /* Pods */,
+				BC994F61923E1C6CAF209FAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5D105772960277800084116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5D105762960277800084116 /* MaxwellNutritionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5D105782960277800084116 /* MaxwellNutritionApp */ = {
+			isa = PBXGroup;
+			children = (
+				E5D105792960277800084116 /* AppDelegate.swift */,
+				E5D1057B2960277800084116 /* SceneDelegate.swift */,
+				E5D1057D2960277800084116 /* SignupViewController.swift */,
+				E5D1058D2960585700084116 /* HomeViewController.swift */,
+				E5D1058F29605EF700084116 /* RecipeTableCell.swift */,
+				E5D105912960623E00084116 /* RecipeDetailViewController.swift */,
+				E50F4AC62968A54F00CE75A1 /* Food.swift */,
+				E5D105822960277A00084116 /* Assets.xcassets */,
+				E5D105842960277A00084116 /* LaunchScreen.storyboard */,
+				E5D1059529619CF300084116 /* GoogleService-Info.plist */,
+				E5D105872960277A00084116 /* Info.plist */,
+			);
+			path = MaxwellNutritionApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5D105752960277800084116 /* MaxwellNutritionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D1058A2960277A00084116 /* Build configuration list for PBXNativeTarget "MaxwellNutritionApp" */;
+			buildPhases = (
+				1F5E225E368C5C64A645E546 /* [CP] Check Pods Manifest.lock */,
+				E5D105722960277800084116 /* Sources */,
+				E5D105732960277800084116 /* Frameworks */,
+				E5D105742960277800084116 /* Resources */,
+				E5C3BAA6F97A791FED28C5EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxwellNutritionApp;
+			productName = MaxwellFoodRecipes;
+			productReference = E5D105762960277800084116 /* MaxwellNutritionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5D1056E2960277800084116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E5D105752960277800084116 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = E5D105712960277800084116 /* Build configuration list for PBXProject "MaxwellNutritionApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5D1056D2960277800084116;
+			productRefGroup = E5D105772960277800084116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5D105752960277800084116 /* MaxwellNutritionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5D105742960277800084116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D105862960277A00084116 /* LaunchScreen.storyboard in Resources */,
+				E5D105832960277A00084116 /* Assets.xcassets in Resources */,
+				E5D1059629619CF300084116 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5E225E368C5C64A645E546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxwellNutritionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C3BAA6F97A791FED28C5EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxwellNutritionApp/Pods-MaxwellNutritionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxwellNutritionApp/Pods-MaxwellNutritionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxwellNutritionApp/Pods-MaxwellNutritionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5D105722960277800084116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D1057E2960277800084116 /* SignupViewController.swift in Sources */,
+				E5D1059029605EF700084116 /* RecipeTableCell.swift in Sources */,
+				E5D1057A2960277800084116 /* AppDelegate.swift in Sources */,
+				E5D1057C2960277800084116 /* SceneDelegate.swift in Sources */,
+				E5D105922960623E00084116 /* RecipeDetailViewController.swift in Sources */,
+				E5D1058E2960585700084116 /* HomeViewController.swift in Sources */,
+				E50F4AC72968A54F00CE75A1 /* Food.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5D105842960277A00084116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5D105852960277A00084116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5D105882960277A00084116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5D105892960277A00084116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5D1058B2960277A00084116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36773D9AB385F2AD9A5CBF3D /* Pods-MaxwellNutritionApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X787MCQ8LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxwellNutritionApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.MaxwellNutritionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5D1058C2960277A00084116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DA1E29FC7721A26A6A45DF /* Pods-MaxwellNutritionApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X787MCQ8LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxwellNutritionApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.MaxwellNutritionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5D105712960277800084116 /* Build configuration list for PBXProject "MaxwellNutritionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D105882960277A00084116 /* Debug */,
+				E5D105892960277A00084116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D1058A2960277A00084116 /* Build configuration list for PBXNativeTarget "MaxwellNutritionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D1058B2960277A00084116 /* Debug */,
+				E5D1058C2960277A00084116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5D1056E2960277800084116 /* Project object */;
+}
