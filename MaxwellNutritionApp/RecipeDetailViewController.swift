@@ -123,7 +123,7 @@ class RecipeDetailViewController : UIViewController {
         headerLabel.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        headerLabel.text = "Details"
+        headerLabel.text = "Details" //details about the food
         headerLabel.font = UIFont.boldSystemFont(ofSize: 25.0)
         headerLabel.textColor = UIColor.red
         headerLabel.textAlignment = .center
