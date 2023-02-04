@@ -278,7 +278,7 @@ class RecipeDetailViewController : UIViewController {
     
 }
 
-extension UIImageView{
+extension UIImageView{ //geting image from url
     func load(urlString: String){
         guard let url = URL(string: urlString) else{
             return
