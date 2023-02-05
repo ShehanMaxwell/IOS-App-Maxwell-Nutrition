@@ -148,27 +148,6 @@ class RecipeDetailViewController : UIViewController {
                 bookmarkButton.addTarget(self, action: #selector(bookmarksButtonClicked), for: .touchUpInside)
                 
 
-//        contentView.addSubview(headerLabel)
-//        headerLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-//        headerLabel.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
-//        headerLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 3/4).isActive = true
-//
-//        contentView.addSubview(nameLabel)
-//        nameLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-//        nameLabel.topAnchor.constraint(equalTo: headerLabel.bottomAnchor, constant: 25).isActive = true
-//        nameLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 3/4).isActive = true
-//
-//        contentView.addSubview(descriptionLabel)
-//        descriptionLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-//        descriptionLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 25).isActive = true
-//        descriptionLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 3/4).isActive = true
-//
-//        contentView.addSubview(ingredientsLabel)
-//        ingredientsLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-//        ingredientsLabel.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 25).isActive = true
-//        ingredientsLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 3/4).isActive = true
-//
-//        ingredientsLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
     }
     
 //    func setupUI1() {
