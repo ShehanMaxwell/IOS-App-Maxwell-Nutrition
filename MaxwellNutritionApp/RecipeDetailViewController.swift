@@ -32,7 +32,7 @@ class RecipeDetailViewController : UIViewController {
     func setupScrollView(){
 
     scrollView.translatesAutoresizingMaskIntoConstraints = false
-    //contentView.translatesAutoresizingMaskIntoConstraints = false
+    
     stackView.translatesAutoresizingMaskIntoConstraints = false
 
 
@@ -52,13 +52,7 @@ class RecipeDetailViewController : UIViewController {
 
 
 
-    //contentView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor).isActive = true
-
-    //contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
-
-    //contentView.topAnchor.constraint(equalTo: scrollView.topAnchor).isActive = true
-
-    //contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor).isActive = true
+    
 
         
         stackView.axis = NSLayoutConstraint.Axis.vertical
