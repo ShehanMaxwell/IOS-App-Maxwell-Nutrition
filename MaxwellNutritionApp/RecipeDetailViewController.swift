@@ -57,7 +57,7 @@ class RecipeDetailViewController : UIViewController {
         
         stackView.axis = NSLayoutConstraint.Axis.vertical
         stackView.distribution = UIStackView.Distribution.fill
-        //stackView.alignment = UIStackView.Alignment.left
+        
         stackView.spacing = 8.0
 
         stackView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor).isActive = true
@@ -65,32 +65,14 @@ class RecipeDetailViewController : UIViewController {
         stackView.topAnchor.constraint(equalTo: scrollView.topAnchor).isActive = true
         stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor,constant: -20).isActive = true
         stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor, constant: -40).isActive = true
-//        contentView.addSubview(stackView)
+
     }
 
 
 
     func setupViews(){
 
-    //contentView.addSubview(label1)
-
-    //label1.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-
-    //label1.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
-
-    //label1.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 3/4).isActive = true
-
-
-
-    //contentView.addSubview(label2)
-
-    //label2.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-
-//    label2.topAnchor.constraint(equalTo: label1.bottomAnchor, constant: 25).isActive = true
-
-    //label2.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 3/4).isActive = true
-
-    //label2.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
+    
 
     }
 
