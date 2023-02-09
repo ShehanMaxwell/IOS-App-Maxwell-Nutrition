@@ -1,4 +1,6 @@
-Two ways to run the maxwell nutrition mobile app
+#) Video of the app - https://drive.google.com/file/d/1Doi5A8yX7DWlITpTlGm1LJEyYs4FddRU/view?usp=share_link
+
+#) Two ways to run the maxwell nutrition mobile app
 
 
 1) If you use github zip to run the project follow these steps
